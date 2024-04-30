@@ -19,7 +19,7 @@ const Profile = ({
       <ul className={css.profile_list}>
         <li className={css.profile_list_item}>
           <span className={css.profile_list_title}>Followers</span>
-          <span className={css.profile_list_text}>{likes}</span>
+          <span className={css.profile_list_text}>{followers}</span>
         </li>
         <li className={css.profile_list_item}>
           <span className={css.profile_list_title}>Views</span>
@@ -27,7 +27,7 @@ const Profile = ({
         </li>
         <li className={css.profile_list_item}>
           <span className={css.profile_list_title}>Likes</span>
-          <span className={css.profile_list_text}>{followers}</span>
+          <span className={css.profile_list_text}>{likes}</span>
         </li>
       </ul>
     </div>
